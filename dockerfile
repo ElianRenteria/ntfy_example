@@ -11,4 +11,4 @@ COPY main.py /app/main.py
 RUN pip install -r requirements.txt
 
 # Set the default command to run the Python script
-CMD ["python", "/app/reminder.py"]
+CMD ["python", "/app/main.py"]
