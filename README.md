@@ -30,7 +30,7 @@ This project is a simple Python program that sends scheduled notifications using
 3. **Run the Docker Container**
    Start the container:
    ```bash
-   docker run -d --name reminder python-reminder
+   docker run -d --name reminder --restart always python-reminder
    ```
 
 4. **Receive Notifications**
